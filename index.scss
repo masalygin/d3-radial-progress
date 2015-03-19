@@ -1,0 +1,18 @@
+.radial-progress {
+  display: block;
+  margin: 0 auto;
+
+  .bg-arc {
+	fill: #e1e1e1;
+  }
+
+  .arc {
+	fill: #4e8fff;
+  }
+
+  .label {
+	font-family: Arial, Helvetica, sans-serif;
+	text-anchor: middle;
+  }
+
+}

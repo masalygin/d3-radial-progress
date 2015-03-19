@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<script src="bower_components/d3/d3.js"></script>
+	<link rel="stylesheet" href="index.css"/>
+	<script src="index.js"></script>
+</head>
+<body>
+
+<div id="main"></div>
+
+<script>
+	var progress = new D3RadialProgress({
+		node: document.getElementById('main'),
+		fontSize: 50,
+		size: 175
+	});
+	progress.set(75);
+</script>
+
+</body>
+</html>

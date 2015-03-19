@@ -1,0 +1,19 @@
+{
+  "name": "d3-radial-progress",
+  "version": "1.0.0",
+  "authors": [
+    "'Ilya <masalygin.ilya@gmail.com>"
+  ],
+  "main": "index.js",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "d3": "~3.5.5"
+  }
+}
